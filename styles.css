@@ -1,0 +1,32 @@
+body{
+    background-image: url(fondo\ 2.0.jpeg);
+}
+/* BOTONES MODERNOS */
+nav a {
+    padding: 12px 22px;
+    border-radius: 30px;
+    background: rgb(26, 235, 8);
+    backdrop-filter: blur(10px);
+    color: rgb(240, 240, 240);
+    font-weight: bold;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    border: 1px solid rgba(238, 235, 235, 0.938);
+}
+
+/* EFECTO HOVER */
+nav a:hover {
+    background: rgb(5, 235, 17);
+    color: black;
+    transform: scale(1.05);
+}
+
+/* EFECTO AL HACER CLICK */
+nav a:active {
+    transform: scale(0.95);
+}
+
+/* SOMBRA SUAVE */
+nav a {
+    box-shadow: 0 4px 15px rgba(3, 189, 59, 0.767);
+}
